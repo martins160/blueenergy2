@@ -2,11 +2,8 @@
   background-image: url('../images/background/01.jpg');
   background-position: top center;
   background-repeat: no-repeat;
-  background-attachment: fixed;  
-  -webkit-background-size: 100% !important;
-  -moz-background-size: 100% !important;
+  background-attachment: fixed;
   -ms-background-size: 100% !important;
-  -o-background-size: 100% !important;
   background-size: 100% !important;
   height: 140px;
 }
@@ -99,11 +96,21 @@
 
 .nav{
   margin: 30px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row !important;
-  flex-wrap: nowrap !important;
-  justify-content: flex-end !important;
-  align-items: flex-start !important;
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: row !important;
+          flex-direction: row !important;
+  -ms-flex-wrap: nowrap !important;
+      flex-wrap: nowrap !important;
+  -webkit-box-pack: end !important;
+      -ms-flex-pack: end !important;
+          justify-content: flex-end !important;
+  -webkit-box-align: start !important;
+      -ms-flex-align: start !important;
+          align-items: flex-start !important;
 }
 
 .nav li a{
