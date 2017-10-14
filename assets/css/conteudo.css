@@ -56,7 +56,7 @@
 .sistema{
   margin: 20px 0;
   height: auto;
-  background-image: url(../images/background/bg-sistema);
+  background-image: url(../images/background/bg-sistema.png);
   background-repeat: repeat-y;
   background-position: center center;
 }
