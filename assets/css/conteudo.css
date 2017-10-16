@@ -160,9 +160,23 @@
 
 .economia{
   padding: 20px 0 10px 0;
-  background-color: #306b8a;
+  background-image: url('../images/background/09.jpg');
   color: #fff;
 }
+
+.item{
+  width: 200px;
+  margin: auto;
+}
+
+.slick-dots li button:before{
+  color: #fff !important;
+  background-color: #fff !important;
+}
+
+
+
+
 
 
 
@@ -519,7 +533,7 @@
 /*ECONOMIA*/
 
 .economia{
-  background-image: url('../images/background/02.png');
+  background-image: url('../images/background/09.jpg');
   background-position: bottom right;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -527,7 +541,6 @@
   background-size: 100% !important;
   padding: 60px 0 20px 0;
   height: 400px;
-  background-color: transparent;
 } 
 
 .economia-box{
@@ -537,21 +550,37 @@
 
 .economia-box p{
   font-size: 18px;
-  color: rgba(0,0,0,0.6);
+  color: #fff;
   font-weight: 100;
-  margin: 100px 0 0 0;
+  margin: 70px 0 0 0;
 }
 
 .economia-box p strong{  
-  color: rgba(0,0,0,0.9);
+  color: #fff;
   font-weight: bold;
 }
 
-.economia-linha{
-  border-bottom: 1px solid rgba(0,0,0,0.6);
+/*.economia-linha{
+  border-bottom: 1px solid rgba(255,255,255,0.6);
   width: 30%;
   margin: 30px auto 0 auto;
+}*/
+
+
+.item{
+  width: 400px;
+  margin: auto;
 }
+
+
+.slick-dots li button:before{
+  margin: 15px 0 0 0;
+}
+
+
+
+
+
 
 
 
