@@ -516,6 +516,12 @@
   color: #fff;  
 }
 
+.solicite-rur{
+  /*background-color: #306b8a;*/
+  background-color: #444;
+  color: #fff;  
+}
+
 .solicite-res:hover{
   background-color: transparent;
   color: #fff;
@@ -526,7 +532,12 @@
   color: #fff;  
 }
 
-.fa-university, .fa-home{
+.solicite-rur:hover{
+  background-color: transparent;
+  color: #fff;  
+}
+
+.fa-university, .fa-home, .fa-envira{
   margin: 0 10px 0 0;
 }
 
@@ -858,22 +869,20 @@
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-pack: distribute;
+          flex-direction: row;  
+  -ms-flex-wrap: nowrap;  
+      flex-wrap: nowrap;  
+  -ms-flex-pack: distribute;  
       justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
 }
 
 .solicite-flex a{
   padding: 20px 20px;
   margin: 0; 
-  font-size: 1.8em; 
+  font-size: 1.4em; 
 }
 
 
