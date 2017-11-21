@@ -541,18 +541,51 @@
   margin: 0 10px 0 0;
 }
 
-.case-image img{
-  opacity: 0.5;
+/*.case-image{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 35px;
+}*/
+
+.case-image{
+  position: relative;
+}
+
+.case-cont{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top:-70px;
+  margin-left:-125px;
+
+  font-size: 1.8em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  width: 250px;
+  font-weight: bold;
+  text-shadow: 1px 2px #222;
+}
+
+.case-image img{  
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;  
+  border-top: 15px solid #fff;
 }
 
 .case-image img:hover{
-  opacity: 1;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;  
+  transition: all 0.3s ease;
+  border-top: 15px solid #fed84a;
+}
+
+.case-cont:hover {
+  text-decoration: underline !important;
 }
 
 
@@ -682,7 +715,7 @@
   font-size: 18px;
   color: #fff;
   font-weight: 100;
-  margin: 70px 0 0 0;
+  margin: 40px 0 0 0;
 }
 
 .economia-box p strong{  
@@ -728,7 +761,7 @@
   border-bottom: 1px solid rgba(0,0,0,0.5);
   width: 10%;
   height: 1px;
-  margin: 0 0 50px 20px;
+  margin: 0 0 20px 20px;
 }
 
 
