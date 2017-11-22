@@ -496,36 +496,42 @@
 
 .solicite-res{
   /*background-color: #fdd84a;*/
-  background-color: #444;
+  /*background-color: #444;*/
   /*color: #306b8a;*/
+  background-color: transparent;
   color: #fff;
+  min-width: 225px;
 }
 
 .solicite-emp{
   /*background-color: #306b8a;*/
-  background-color: #444;
+  /*background-color: #444;*/
+  background-color: transparent;
   color: #fff;  
+  min-width: 225px;
 }
 
 .solicite-rur{
   /*background-color: #306b8a;*/
-  background-color: #444;
+  /*background-color: #444;*/
+  background-color: transparent;
   color: #fff;  
+  min-width: 225px;
 }
 
 .solicite-res:hover{
-  background-color: transparent;
-  color: #fff;
+  background-color: #fff;
+  color: #101d2e;
 }
 
 .solicite-emp:hover{
-  background-color: transparent;
-  color: #fff;  
+  background-color: #fff;
+  color: #101d2e;  
 }
 
 .solicite-rur:hover{
-  background-color: transparent;
-  color: #fff;  
+  background-color: #fff;
+  color: #101d2e;  
 }
 
 .fa-university, .fa-home, .fa-envira{
@@ -921,6 +927,44 @@
   padding: 20px 20px;
   margin: 0; 
   font-size: 1.4em; 
+}
+
+
+.solicite-res{
+  /*background-color: #fdd84a;*/
+  /*background-color: #444;*/
+  /*color: #306b8a;*/
+  background-color: #fff;
+  color: #101d2e;
+}
+
+.solicite-emp{
+  /*background-color: #306b8a;*/
+  /*background-color: #444;*/
+  background-color: #fff;
+  color: #101d2e;  
+}
+
+.solicite-rur{
+  /*background-color: #306b8a;*/
+  /*background-color: #444;*/
+  background-color: #fff;
+  color: #101d2e;  
+}
+
+.solicite-res:hover{
+  background-color: #101d2e;
+  color: #fff;
+}
+
+.solicite-emp:hover{
+  background-color: #101d2e;
+  color: #fff;  
+}
+
+.solicite-rur:hover{
+  background-color: #101d2e;
+  color: #fff;  
 }
 
 
