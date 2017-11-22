@@ -500,7 +500,7 @@
   /*color: #306b8a;*/
   background-color: transparent;
   color: #fff;
-  min-width: 225px;
+  min-width: 260px;
 }
 
 .solicite-emp{
@@ -508,7 +508,7 @@
   /*background-color: #444;*/
   background-color: transparent;
   color: #fff;  
-  min-width: 225px;
+  min-width: 260px;
 }
 
 .solicite-rur{
@@ -516,7 +516,7 @@
   /*background-color: #444;*/
   background-color: transparent;
   color: #fff;  
-  min-width: 225px;
+  min-width: 260px;
 }
 
 .solicite-res:hover{
