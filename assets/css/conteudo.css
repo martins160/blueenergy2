@@ -443,12 +443,7 @@
 
 /*SOLICITE*/
 .solicite{
-  background-image: url('../images/background/08.jpg');
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  -ms-background-size: cover;
-  background-size: cover;
+  background-color: #101d2e;
   padding: 30px 0 20px 0;
 }
 
@@ -890,8 +885,15 @@
 
 /*SOLICITE*/
 .solicite{
+  background-image: url('../images/background/08.jpg');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -ms-background-size: cover;
+  background-size: cover;
   padding: 60px 0 50px 0;
 }
+
 
 .solicite-title{
   font-size: 2.2em;
