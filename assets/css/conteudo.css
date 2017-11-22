@@ -151,13 +151,7 @@
 
 /*ETAPAS*/
 .etapas{
-  background-image: url('../images/background/bg-etapas-300.jpg');
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  -ms-background-size: cover;
-  background-size: cover;
-  
+  background-color: #717171;
 
   padding: 40px 0 30px 0;
 }
