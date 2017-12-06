@@ -1,0 +1,40 @@
+.contato{
+    padding: 40px 0;
+}
+
+.contato h3{
+    font-size: 25px; 
+    margin: 0 0 20px 0;
+}
+
+.contato .contato-bord{
+    border-bottom: 2px solid #709df4;
+    width: 30%;
+    margin: auto;
+}
+
+.contato-form{
+    width: 90%;
+    margin: 40px auto 0 auto;
+}
+
+.contato-form label{
+    text-align: left;
+    display: block;
+}
+
+.contato-form .btn{
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+
+
+
+/*************************************************************************************************/
+@media(min-width:960px){
+    
+    .contato-form{
+        width: 50%;
+    }
+
+}

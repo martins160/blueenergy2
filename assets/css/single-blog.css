@@ -1,0 +1,13 @@
+.single-blog{
+    padding: 40px 0;
+}
+
+.single-blog h1{
+    font-size: 35px;
+    margin: 10px 0 40px 0;
+}
+
+.single-blog p{
+    text-align: justify;
+    margin: 30px 0 0 0;
+}

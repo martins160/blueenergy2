@@ -1,0 +1,26 @@
+.header-sobre{
+  background-image: url('../images/background/01.jpg');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -ms-background-size: 100% !important;
+  background-size: 100% !important;
+  height: 140px;
+}
+
+.header-sobre .logo{
+  margin: 18px 0 0 0;
+}
+
+.header-sobre .logo img{
+    width: 200px;
+}
+
+.header-sobre .nav{
+    margin: 60px 0 0 0;
+}
+
+
+.page-sobre{
+    padding: 50px 0;
+}

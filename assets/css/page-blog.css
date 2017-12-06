@@ -1,0 +1,50 @@
+.blog {
+    padding: 50px 0;
+}
+
+.blog h1{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.blog-block{
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    padding: 35px 0 20px 0;
+    float: left;
+}
+
+.blog-block img{
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.blog-block h2{
+    font-size: 28px;
+    text-align: left;
+    display: block;
+}
+
+.blog-block  .blog-date{
+    text-align: left;
+    display: block;
+    color: #727272
+}
+
+.blog-block .cont{
+    text-align: left;
+    display: block;
+    margin: 10px 0 0 0;
+    color: #727272
+}
+
+
+/*************************************************************************************************/
+
+@media(min-width:960px) {
+
+
+
+
+}
