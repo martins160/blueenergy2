@@ -1,5 +1,5 @@
 /*
-Theme Name: Mulheres Renovadas 2017
+Theme Name: Blue Energy Engenharia
 Theme URI: http://www.metodistarenovadauberlandia.com
 Author: Marcelo Martins
 Author URI: https://m3studio.com.br/
@@ -18,5 +18,9 @@ Text Domain: metodistarenovadauberlandia.com
 @import url('assets/css/header.css');
 @import url('assets/css/conteudo.css');
 @import url('assets/css/footer.css');
-
-
+@import url('assets/css/page-sobre.css');
+@import url('assets/css/single-cases.css');
+@import url('assets/css/page-blog.css');
+@import url('assets/css/page-social.css');
+@import url('assets/css/single-blog.css');
+@import url('assets/css/page-contato.css');
