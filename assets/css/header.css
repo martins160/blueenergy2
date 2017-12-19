@@ -52,6 +52,136 @@
 }
 
 
+.navmail{
+    color: #fff;
+    font-weight: lighter;
+}
+
+
+
+
+
+
+
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: -250px;    
+    background: #262626;    
+    width: 250px;
+    height: 100%;
+    transition: .5s;
+    z-index: 100;
+}
+
+.active121{
+    left: 0;
+}
+
+
+.sidebar ul{
+    margin: 0;
+    padding: 20px 0;    
+}
+
+.sidebar ul li{
+    list-style: none;
+}
+
+.sidebar ul li a{
+    padding: 10px 20px;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    text-align: left;
+}
+
+.sidebar ul li a:hover{
+    background: rgba(0,0,0,.1);
+}
+
+
+.sidebar-btn{
+    position: absolute;
+    top: 0;
+    right: -70px;
+    width: 70px;
+    height: 60px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background: #f5f5f5;
+    border: none;
+    outline: none;
+    transition: .5s;
+}
+
+.sidebar-btn span{
+    display: block;
+    width: 55px;
+    height: 3px;
+    background: #262626;
+    position: absolute;
+    top: 38px;
+    transition: .3s;
+    margin: 0 0 0 6.5px;
+}
+
+.sidebar-btn span:before{
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #262626;
+    transition: .5s;
+}
+
+.sidebar-btn span:after{
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #262626;
+    transition: .5s;
+}
+
+.sidebar-btn.toggle span{
+    background: transparent;   
+}
+
+.sidebar-btn.toggle .sid2{
+    display: none;
+    transition: .5s;
+}
+
+.sidebar-btn.toggle{
+    background: transparent;
+    transition: .5s;
+}
+
+.sidebar-btn.toggle span:before{
+    top: 0;
+    transform: rotate(45deg);  
+    background: #f5f5f5;
+}
+
+.sidebar-btn.toggle span:after{
+    top: 0;
+    transform: rotate(-45deg); 
+    background: #f5f5f5;
+}
+
+
+
+
+
+
+
 /*************************************************************************************************/
 @media(min-width:570px){
 .logo{
@@ -122,6 +252,12 @@
 .menu{
   display: none;
 }
+    
+
+.navmail{
+    font-size: 1.3em;
+}
+
 
 
 
