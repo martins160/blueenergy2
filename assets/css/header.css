@@ -111,7 +111,7 @@
     height: 60px;
     box-sizing: border-box;
     cursor: pointer;
-    background: #f5f5f5;
+    background: #262626;
     border: none;
     outline: none;
     transition: .5s;
@@ -121,7 +121,7 @@
     display: block;
     width: 55px;
     height: 3px;
-    background: #262626;
+    background: #f5f5f5;
     position: absolute;
     top: 38px;
     transition: .3s;
@@ -135,7 +135,7 @@
     left: 0;
     width: 100%;
     height: 3px;
-    background: #262626;
+    background: #f5f5f5;
     transition: .5s;
 }
 
@@ -146,12 +146,16 @@
     left: 0;
     width: 100%;
     height: 3px;
-    background: #262626;
+    background: #f5f5f5;
     transition: .5s;
 }
 
 .sidebar-btn.toggle span{
     background: transparent;   
+}
+
+.sid2{
+    color: #f5f5f5;
 }
 
 .sidebar-btn.toggle .sid2{
