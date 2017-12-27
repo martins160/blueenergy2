@@ -44,20 +44,31 @@
 				</a>
 			</div>
 
-			<div class="menu">
-				<a href="#">
-					<i class="fa fa-navicon"></i>
-				</a>
-			</div>
-
-			<div class="col-md-9 nav">				
-				<li><a href="index.html">Inicio</a></li>
+			<div class="col-md-9 nav">
+                <span class="navmail">contato@blueenergyengenharia.com | (34) 2589-5843</span>				    			
+				<!--<li><a href="index.html">Inicio</a></li>
 				<li><a href="sobre.html">Sobre</a></li>
 				<li><a href="cases.html">Cases</a></li>
 				<li><a href="social.html">Social</a></li>
 				<li><a href="blog.html">Blog</a></li>
-				<li><a href="contato.html">Contato</a></li>					
+				<li><a href="contato.html">Contato</a></li>-->				
 			</div>
+			
+            <div class="sidebar">               
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="cases.html">Cases</a></li>
+                    <li><a href="social.html">Social</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+                
+                <div class="sidebar-btn">
+                    <div class="sid2">MENU</div>
+                    <span></span>
+                </div>
+            </div>
 
 		</div>		
 	</div>
@@ -162,7 +173,12 @@
     $('.parallaxie').parallaxie();
 
 
-
+    $('.sidebar-btn').on('click', function(){
+        $('.sidebar').toggleClass('abrir');
+        
+            $('.sidebar-btn').toggleClass('toggle');
+    });
+    
 
 	$(document).ready(function(){
 		$('.economia-box').slick({

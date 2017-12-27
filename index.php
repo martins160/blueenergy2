@@ -25,11 +25,7 @@
 
     <!--SLICK-->
     <link rel="stylesheet" href="assets/slick/slick.css" type="text/css"/>
-	<link rel="stylesheet" href="assets/slick/slick-theme.css" type="text/css"/>	
-   
-   		
-    <link rel="stylesheet" href="assets/owlcarousel/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/owlcarousel/css/owl.theme.default.min.css">		
+	<link rel="stylesheet" href="assets/slick/slick-theme.css" type="text/css"/>			
     
        
 </head>
@@ -48,11 +44,11 @@
 				</a>
 			</div>
 
-			<!--<div class="menu">
+			<div class="menu">
 				<a href="#">
 					<i class="fa fa-navicon"></i>
 				</a>
-			</div>-->
+			</div>
 
 			<div class="col-md-9 nav">
                 <span class="navmail">contato@blueenergyengenharia.com | (34) 2589-5843</span>				    			
@@ -64,23 +60,15 @@
 				<li><a href="contato.html">Contato</a></li>-->				
 			</div>
 			
-            <div class="sidebar">               
+            <div class="sidebar">
                 <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="sobre.html">Sobre</a></li>
-                    <li><a href="cases.html">Cases</a></li>
-                    <li><a href="social.html">Social</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                    <li><a href="#">Link 4</a></li>
+                    <li><a href="#">Link 5</a></li>
                 </ul>
-                
-                <div class="sidebar-btn">
-                    <div class="sid2">MENU</div>
-                    <span></span>
-                </div>
             </div>
-            
-
 
 		</div>
 		<div class="row">
@@ -266,19 +254,14 @@ Temos uma equipe experiente e preparada para entregar sua instalalação com tod
 		<div class="row">			
 			<div class="col-md-12 parallaxie" data-parallaxie='{"size": "cover", "pos_x":"100%", "speed":-0.5, "offset":0}'>
 				<div class="economia-box" data-slick='{"slidesToShow": 1, "slidesToScroll": 1}'>
-                    
-                    
-                    <div class="owl-carousel owl-theme">
-                        <div class="item">
-                        <p><strong>"</strong>Todos os dias temos observado como foi interessante fazer a implementação de uma energia sustentável em nossa casa, a econômia é enorme.<strong>"</strong> Nome da Pessoa</p>
-                        </div>	
 
-                        <div class="item">
-                        <p><strong>"</strong>A Redução nos gastos com energia elétrica na empresa foi extraordinário, conseguimos reduzir em cerca de 85%, e agora podemos invertir mais em nosso negócio!<strong>"</strong> Nome da Pessoa</p>
-                        </div>	
-                    </div>
+					<div class="item">
+					<p><strong>"</strong>Todos os dias temos observado como foi interessante fazer a implementação de uma energia sustentável em nossa casa, a econômia é enorme.<strong>"</strong> Nome da Pessoa</p>
+					</div>	
 
-							
+					<div class="item">
+					<p><strong>"</strong>A Redução nos gastos com energia elétrica na empresa foi extraordinário, conseguimos reduzir em cerca de 85%, e agora podemos invertir mais em nosso negócio!<strong>"</strong> Nome da Pessoa</p>
+					</div>									
 					
 					<!--
 					<div class="item">
@@ -418,7 +401,6 @@ Temos uma equipe experiente e preparada para entregar sua instalalação com tod
 
 <!--PLUGIN BOOTSTRAP-->
 <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
 
 <!--PLUGIN WOW-->
 <script src="assets/js/wow.min.js"></script> 
@@ -428,22 +410,20 @@ Temos uma equipe experiente e preparada para entregar sua instalalação com tod
 <!--PLUGIN SLICK-->    
   <script src="assets/slick/slick.min.js" type="text/javascript"></script>
 				
-<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-   
-   <script src="assets/owlcarousel/js/owl.carousel.min.js"></script>
-    
+
+
 
 <script>
     //WOW
     new WOW().init();
 
 	//PARALLAX
-    //$('.parallaxie').parallaxie();
+    $('.parallaxie').parallaxie();
 
 
 
 
-	/*$(document).ready(function(){
+	$(document).ready(function(){
 		$('.economia-box').slick({
 			dots: true,
 			arrows: false,
@@ -452,56 +432,6 @@ Temos uma equipe experiente e preparada para entregar sua instalalação com tod
   		  	autoplaySpeed: 10000
 		}); 	
 	});	
-    
-    
-    
-    
-    $(document).ready(function(){
-        $('.sidebar-btn').click(function(){
-            $('.sidebar').toggleClass('active121');
-            $('.sidebar-btn').toggleClass('toggle');
-        });
-        
-        $('body').click(function(){
-            //$('.sidebar-btn').removeClass('toggle');
-            //$('ul').animate({'left':'-100%'},300);
-            
-        });
- 
-        
-    });*/
-    
-        $('.sidebar-btn').on('click', function(){
-        $('.sidebar').toggleClass('abrir');
-        
-            $('.sidebar-btn').toggleClass('toggle');
-            
-            
-    });
-    
-    
-    
-    
-    
-    $(document).ready(function(){
-      $('.owl-carousel').owlCarousel({
-    center: true,
-    items:2,
-    loop:true,
-    margin:10,
-    autoplay:true,
-    autoplayTimeout:5000,
-    autoplayHoverPause:true,
-            responsive:{
-                600:{
-                    items:1
-                }
-            }
-        });
-        
-    });
-    
-    
 </script>
 
     
