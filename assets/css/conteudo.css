@@ -214,13 +214,35 @@
 }
 
 .item{
-  width: 200px;
+  width: 250px;
   margin: auto;
 }
 
 .slick-dots li button:before{
   color: #fff !important;
   background-color: #fff !important;
+}
+
+
+
+
+
+.economia-box{
+  width: 90%;
+  margin: auto;
+  
+}
+
+.economia-box p{
+  font-size: 18px;
+  color: #fff;
+  font-weight: 100;
+  margin: 20px 0 0 0;
+}
+
+.economia-box p strong{  
+  color: #fff;
+  font-weight: bold;
 }
 
 
@@ -711,8 +733,10 @@
 } 
 
 .economia-box{
-  width: 50%;
+  width: 100%;
   margin: auto;
+
+   
 }
 
 .economia-box p{
@@ -735,7 +759,7 @@
 
 
 .item{
-  width: 400px;
+  width: 600px;
   margin: auto;
 }
 
