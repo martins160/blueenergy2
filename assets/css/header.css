@@ -1,5 +1,5 @@
 .header{
-  background-image: url('../images/background/01.jpg');
+  background-image: url('../images/background/bg-header.png');
   background-position: top center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -24,16 +24,16 @@
 
 .nav li a{
   color:rgba(0,0,0,0.5);
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 .nav li a:hover{
   color:rgba(255,255,255,1);
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 .menu{
@@ -54,8 +54,17 @@
 
 .navmail{
     color: #fff;
-    font-weight: lighter;
+    font-weight: lighter;    
+    font-size: 2em;
+    padding: 5px 0;
+    float: right;
 }
+
+
+.nav-ss{
+    display: none;
+}
+
 
 
 
@@ -175,7 +184,7 @@
 
 .sidebar-btn{
     position: absolute;
-    top: 0;
+    top: 8px;
     right: -70px;
     width: 70px;
     height: 60px;
@@ -286,12 +295,16 @@
 }
 
 .logo{
-  margin: 30px 0 0 0;
+  margin: -40px 0 0 0;
   padding: 0;  
 }
 
 .logo img{
   width: 100%;
+}
+    
+.sidebar{
+    display: none;
 }
 
 .nav{
@@ -300,7 +313,10 @@
 
 .nav{
   margin: 50px 0 0 0;
-  display: -webkit-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  /*display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal !important;
@@ -314,12 +330,13 @@
           justify-content: flex-end !important;
   -webkit-box-align: start !important;
       -ms-flex-align: start !important;
-          align-items: flex-start !important;
+          align-items: flex-start !important;*/
 }
 
 .nav li a{
-  margin: 0 0 0 15px;
-  color:rgba(0,0,0,0.5);
+  margin: 0;
+  color:rgba(255,255,255,0.7);
+  font-size: 1.5em;
 }
 
 
@@ -329,9 +346,14 @@
     
 
 .navmail{
-    font-size: 1.3em;
+    font-size: 1.5em;
+    float: right;
+    padding: 30px 0 0 0;
 }
 
+.nav-ss{
+    display: inline-block;
+}
 
 
 

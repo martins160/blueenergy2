@@ -1,5 +1,5 @@
 .header-sobre{
-  background-image: url('../images/background/01.jpg');
+  background-image: url('../images/background/bg-header.png');
   background-position: top center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -17,10 +17,46 @@
 }
 
 .header-sobre .nav{
-    margin: 60px 0 0 0;
+    margin: 10px 0 0 0;
+    display: flex;
+        flex-direction: row;
+    flex-wrap: nowrap;
+        justify-content: flex-end;
+    align-items: flex-start;   
+}
+
+
+.header-sobre .nav li a{
+  margin: 0 5px;
+  color:rgba(255,255,255,0.7);
+  font-size: 1em;
 }
 
 
 .page-sobre{
     padding: 50px 0;
 }
+
+
+
+
+.navmail{
+    display: none;
+}
+
+
+@media(min-width:960px){
+    
+.header-sobre .logo{
+  margin: -48px 0 0 0;
+}    
+    
+.navmail{
+    display: block;
+}
+
+
+    
+    
+}
+
