@@ -38,6 +38,10 @@
 	margin: 0 0 5px 0;
 }
 
+.footer-copy strong{
+	font-size: 12px;
+}
+
 .footer-img{
 	width: 170px;
 }
@@ -81,6 +85,10 @@
 
 .footer-img{
 	width: 120px;
+}
+
+.footer-copy strong{
+	font-size: 15px;
 }
 
 
