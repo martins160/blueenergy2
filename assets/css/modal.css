@@ -1,0 +1,56 @@
+.modal-label-align{
+	float: left;
+}
+
+.modal-title{
+	background: #FF6347;
+	width: 100%;
+	color: #fff;
+	padding: 5px 0;
+}
+
+.modal-title2{
+	background: #4682B4;
+	width: 100%;
+	color: #fff;
+	padding: 5px 0;
+}
+
+.modal-title3{
+	background: #6B8E23;
+	width: 100%;
+	color: #fff;
+	padding: 5px 0;
+}
+
+.btn01{
+	background: #FF6347;
+	color: #fff;
+}
+
+.btn01:hover{
+	background: #FF7F50;
+	color: #fff;
+}
+
+.btn02{
+	background: #4682B4;
+	color: #fff;
+}
+
+.btn02:hover{
+	background: #4169E1;
+	color: #fff;
+}
+
+.btn03{
+	background: #6B8E23;
+	color: #fff;
+}
+
+.btn03:hover{
+	background: #556B2F;
+	color: #fff;
+}
+
+
