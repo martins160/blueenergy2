@@ -213,7 +213,7 @@
   color: #fff;
 }
 
-.item{
+.economia-box .item{
   width: 250px;
   margin: auto;
 }
@@ -221,6 +221,11 @@
 .slick-dots li button:before{
   color: #fff !important;
   background-color: #fff !important;
+}
+
+.owl-parceiros .item{
+    width: 250px;
+    margin: auto;
 }
 
 
@@ -611,6 +616,7 @@
 
 
 
+
 /*************************************************************************************************/
 @media(min-width:960px){
 
@@ -758,10 +764,18 @@
 }*/
 
 
-.item{
+.economia-box .item{
   width: 600px;
   margin: auto;
 }
+
+
+
+.owl-parceiros .item{
+    width: 200px;
+    margin: auto;
+}
+
 
 
 .slick-dots li button:before{
