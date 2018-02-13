@@ -28,10 +28,11 @@
 	<link rel="stylesheet" href="assets/slick/slick-theme.css" type="text/css"/>	
 
   <!--plugin modal bootstrap-->
-  <script src="assets/bootstrap/js/popper.min.js"></script>  		
+  <script src="assets/bootstrap/js/popper.min.js"></script>  	
 
-  <link rel="stylesheet" href="assets/owlcarousel/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/owlcarousel/css/owl.theme.default.min.css"> 
+
+                <link rel="stylesheet" href="assets/owlcarousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/owlcarousel/css/owl.theme.default.min.css"> 	
     
        
 </head>
@@ -56,25 +57,26 @@
 			</div>
 			
 
-			<div class="col-md-9 nav">
+      <div class="col-md-9 nav">
                     <li><a href="index.html">Inicio</a></li>
                     <li><a href="sobre.html">Sobre</a></li>
                     <li><a href="engenharia.html">Engenharia</a></li>
                     <li><a href="cases.html">Cases</a></li>
-                    <li><a href="social.html">Social</a></li>
                     <li><a href="blog.html">Blog</a></li>
-                    <li><a href="contato.html">Contato</a></li>			
-			</div>						
-
-			
+                    <li><a href="videos.html">Vídeos</a></li>
+                    <li><a href="filiais.html">Filiais</a></li>
+                    <li><a href="contato.html">Contato</a></li>     
+      </div>
+      
             <div class="sidebar">               
                 <ul>
                     <li><a href="index.html">Inicio</a></li>
                     <li><a href="sobre.html">Sobre</a></li>
                     <li><a href="engenharia.html">Engenharia</a></li>
                     <li><a href="cases.html">Cases</a></li>
-                    <li><a href="social.html">Social</a></li>
                     <li><a href="blog.html">Blog</a></li>
+                    <li><a href="videos.html">Vídeos</a></li>
+                    <li><a href="filiais.html">Filiais</a></li>
                     <li><a href="contato.html">Contato</a></li>
                 </ul>
                 
@@ -133,11 +135,28 @@
 
 
 
-<div class="parceiros">
+<!--<div class="parceiros">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <h1>parceiros e clientes da BlueEnergy</h1>
+        <div class="parceiros-flex">
+          <img class="img-responsive" src="http://placehold.it/200x100" alt="">
+          <img class="img-responsive" src="http://placehold.it/200x100" alt="">
+          <img class="img-responsive" src="http://placehold.it/200x100" alt="">
+          <img class="img-responsive" src="http://placehold.it/200x100" alt="">
+          <img class="img-responsive" src="http://placehold.it/200x100" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>-->
+
+<div class="parceiros">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>parceiros e clientes da Blue Energy</h1>
         <!--
         <div class="parceiros-flex">
           <img class="img-responsive" src="assets/images/background/par01.jpg" alt="">
@@ -229,6 +248,10 @@
                             <input type="email" class="form-control" required>
                           </div>
                           <div class="form-group">
+                            <label class="form-control-label modal-label-align">Média de consumo (kwh):</label>
+                            <input type="text" class="form-control" required>
+                          </div>                           
+                          <div class="form-group">
                             <label class="form-control-label modal-label-align">Endereço:</label>
                             <input type="text" class="form-control" required>
                           </div>                                                                          
@@ -268,6 +291,10 @@
                             <input type="email" class="form-control" required>
                           </div>
                           <div class="form-group">
+                            <label class="form-control-label modal-label-align">Média de consumo (kwh):</label>
+                            <input type="text" class="form-control" required>
+                          </div>                           
+                          <div class="form-group">
                             <label class="form-control-label modal-label-align">Endereço:</label>
                             <input type="text" class="form-control" required>
                           </div>                                                                          
@@ -305,6 +332,10 @@
                             <input type="email" class="form-control" required>
                           </div>
                           <div class="form-group">
+                            <label class="form-control-label modal-label-align">Média de consumo (kwh):</label>
+                            <input type="text" class="form-control" required>
+                          </div>                           
+                          <div class="form-group">
                             <label class="form-control-label modal-label-align">Endereço:</label>
                             <input type="text" class="form-control" required>
                           </div>                                                                          
@@ -341,6 +372,11 @@
                     <strong>contato@blueenergyengenharia.com | (34) 2589-5843</strong>
                 </span>
                 <img src="assets/images/background/logo-footer.png" class="img-responsive footer-img">
+                        <div class="selo">
+          <a href="https://www.portalsolar.com.br/fornecedores/empresas-de-energia-solar/minas-gerais/uberlandia/blue-energy---engenharia-e-sustentabilidade" target="_blank">
+            <img src="assets/images/selo.png" alt="">
+          </a>
+        </div>  
             </div>                      
         </div>
     </div>
@@ -365,11 +401,10 @@
 
 
           
-<!--PLUGIN SLICK-->    
-  <script src="assets/slick/slick.min.js" type="text/javascript"></script>
+<script src="assets/owlcarousel/js/owl.carousel.min.js"></script>
 				
 
- <script src="assets/owlcarousel/js/owl.carousel.min.js"></script>
+
 
 <script>
     //WOW
@@ -389,24 +424,14 @@
 
 
 
-	$(document).ready(function(){
-		$('.economia-box').slick({
-			dots: true,
-			arrows: false,
-			autoplay: true,
-			adaptiveHeight: true,
-  		  	autoplaySpeed: 10000
-		}); 	
-	});	
-
-      $(document).ready(function(){
+$(document).ready(function(){
       $('.owl-parceiros').owlCarousel({
     center: true,
     items:1,
     loop:true,
     margin:10,
     autoplay:true,
-    autoplayTimeout:5000,
+    autoplayTimeout:15000,
     autoplayHoverPause:true,
             responsive:{
                 600:{
@@ -415,9 +440,7 @@
             }
         });
         
-    });
-
-      
+    }); 
 </script>
 
     
