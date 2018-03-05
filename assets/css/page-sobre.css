@@ -28,8 +28,9 @@
 
 .header-sobre .nav li a{
   margin: 0 5px;
-  color:rgba(255,255,255,0.7);
-  font-size: 1em;
+  color:rgba(255,255,255,0.9);
+  font-size: 1.4em;
+  font-weight: bold;
 }
 
 
