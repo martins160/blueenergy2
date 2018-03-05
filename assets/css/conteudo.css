@@ -644,6 +644,21 @@
 
 
 
+.filiais-flex-box{
+  width: 90%;
+  margin: 0 0 20px 0; 
+}
+
+.filiais-flex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+   width: 100%;
+}
+
+
+
+
 
 
 /*************************************************************************************************/
@@ -1042,7 +1057,7 @@
 /*FILIAIS*/
 
 .filiais{
-  padding: 30px 0 50px 0;
+  padding: 60px 0 40px 0;
 }
 
 .filiais-titu{
@@ -1053,14 +1068,28 @@
 
 .filiais h1{
   font-size: 1.4em;
-  text-align: left;
+  text-align: center;
 }
 
 .filiais p{
   text-align: left;
   font-size: 1em;
   margin: 0 0 0px 0;
-  text-align: justify;
+  text-align: center;
+}
+
+.filiais-flex-box{
+  width: 30%;
+  margin: 0 0 50px 0;  
+}
+
+.filiais-flex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
 }
 
 
