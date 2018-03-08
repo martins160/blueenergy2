@@ -406,6 +406,26 @@
     display: inline-block;
 }
 
+.fa-facebook-f:hover{
+  opacity: 0.5;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;  
+}
+
+.fa-whatsapp:hover{
+  opacity: 0.5;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;  
+}
+
+.fa-youtube:hover{
+  opacity: 0.5;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;  
+}
 
 
 /*.selo img{
