@@ -291,6 +291,25 @@
 }
 
 
+.soc{
+  display: block;
+  margin: 20px 0 0 0;
+}
+
+.soc a{
+  color: #fff;
+  margin: 0 10px;
+  font-size: 2em;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;  
+}
+
+.soc a:hover fab{
+  opacity: 0.5;
+ 
+}
+
 
 
 /*************************************************************************************************/
