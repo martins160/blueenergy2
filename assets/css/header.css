@@ -437,24 +437,47 @@
 
 .fa-facebook-f:hover{
   opacity: 0.5;
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;  
 }
 
 .fa-whatsapp:hover{
   opacity: 0.5;
+}
+
+.fa-youtube:hover{
+  opacity: 0.5;
+}
+
+.fa-instagram:hover{
+  opacity: 0.5;
+}
+
+
+
+.fa-facebook-f{
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;  
 }
 
-.fa-youtube:hover{
-  opacity: 0.5;
+.fa-whatsapp{
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;  
 }
+
+.fa-youtube{
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;  
+}
+
+.fa-instagram{
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;  
+}
+
+
 
 
 /*.selo img{
