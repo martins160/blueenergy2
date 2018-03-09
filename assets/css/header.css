@@ -290,6 +290,16 @@
   padding: 10px;
 }
 
+.tag-center a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.tag-center a:hover{
+  text-decoration: underline;
+  color: #fff;
+}
+
 
 .soc{
   display: block;
